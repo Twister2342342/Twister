@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minecraft Hub</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+}
+
+header{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+background:linear-gradient(135deg,#16a34a,#22c55e);
+text-align:center;
+}
+
+header h1{
+font-size:60px;
+margin-bottom:20px;
+}
+
+header p{
+font-size:22px;
+max-width:700px;
+}
+
+.btn{
+margin-top:30px;
+padding:15px 30px;
+background:white;
+color:#16a34a;
+text-decoration:none;
+border-radius:10px;
+font-weight:bold;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+padding:60px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:15px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.card h2{
+color:#22c55e;
+margin-bottom:10px;
+}
+
+footer{
+text-align:center;
+padding:30px;
+background:#020617;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>Minecraft Hub</h1>
+<p>Лучшие моды, ресурспаки, шейдеры и полезные инструменты для Minecraft.</p>
+<a href="#mods" class="btn">Смотреть</a>
+</header>
+
+<section class="cards" id="mods">
+
+<div class="card">
+<h2>Моды</h2>
+<p>Новые возможности, блоки и механики для игры.</p>
+</div>
+
+<div class="card">
+<h2>Шейдеры</h2>
+<p>Красивое освещение, вода и реалистичная графика.</p>
+</div>
+
+<div class="card">
+<h2>Ресурспаки</h2>
+<p>Изменение текстур и внешнего вида мира.</p>
+</div>
+
+<div class="card">
+<h2>Гайды</h2>
+<p>Полезные инструкции и советы по Minecraft.</p>
+</div>
+
+</section>
+
+<footer>
+© 2026 Minecraft Hub
+</footer>
+
+</body>
+</html>
